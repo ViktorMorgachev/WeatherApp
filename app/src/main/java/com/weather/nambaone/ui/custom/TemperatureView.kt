@@ -30,7 +30,9 @@ class TemperatureView(context: Context, attributeSet: AttributeSet) :
 
     fun setTemperature(temperature: Int) {
         tv_temperature.text = temperature.toString()
-        val color = convertTemperatureToColor(temperature)
+    }
+
+    fun setBackground(color: Int) {
         ll_background.setBackgroundColor(color)
     }
 
