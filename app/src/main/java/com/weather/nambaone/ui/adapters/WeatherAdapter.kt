@@ -1,4 +1,4 @@
-package com.weather.nambaone.ui
+package com.weather.nambaone.ui.adapters
 
 import android.view.LayoutInflater
 import android.view.View

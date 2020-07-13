@@ -11,6 +11,7 @@ import kotlinx.android.synthetic.main.temperature_item.view.*
 
 class TemperatureView(context: Context, attributeSet: AttributeSet) :
     LinearLayout(context, attributeSet) {
+    
     init {
         LayoutInflater.from(context).inflate(R.layout.temperature_item, this, true)
         parseStyle(attributeSet)

@@ -13,7 +13,7 @@ android {
         versionCode 1
         versionName "1.0"
 
-        dataBinding  {
+        dataBinding {
             enabled true
         }
 
@@ -46,6 +46,11 @@ dependencies {
     // RecyclerView
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    // Runtime Permissions
+    implementation 'com.karumi:dexter:4.2.0'
+    // Logging Library
+    implementation 'com.jakewharton.timber:timber:4.7.1'
 
 
 }

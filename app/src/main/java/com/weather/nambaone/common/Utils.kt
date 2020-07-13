@@ -18,3 +18,4 @@ private fun calculateWarmColor(temperature: Int): Int {
 private fun calculateColdColor(temperature: Int): Int {
     return Color.argb(100, 106, 226 + temperature, 208)
 }
+

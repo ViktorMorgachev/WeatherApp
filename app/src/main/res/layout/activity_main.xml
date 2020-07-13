@@ -4,7 +4,7 @@
     <data>
         <variable
             name="myAdapter"
-            type="com.weather.nambaone.ui.WeatherAdapter" />
+            type="com.weather.nambaone.ui.adapters.WeatherAdapter" />
     </data>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
